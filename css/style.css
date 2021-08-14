@@ -38,6 +38,7 @@ html *{
 .header{
     height: auto;
 }
+
 .header_1{
     height: 100px;
     display: flex;
