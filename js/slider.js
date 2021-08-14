@@ -5,8 +5,8 @@ $(function() {
         slideCount = $('.sldr ').length,
         prv_b = $('.prv_b'),
         nxt_b = $('.nxt_b'),
-        sldrInterval = 5000,
-        animateTime = 1000,
+        sldrInterval = 2000,
+        animateTime = 500,
         course = 1,
         margin = - slideWidth;
     $('.sldr img:last').clone().prependTo('.sldr');
