@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'TTSlabsCondensed';
+    src: url('TTSlabsCondensed-ThinItalic.eot');
+    src: local('☞TT Slabs Condensed Thin Italic'), local('TTSlabsCondensed-ThinItalic'),
+        url('TTSlabsCondensed-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTSlabsCondensed-ThinItalic.woff2') format('woff2'),
+        url('TTSlabsCondensed-ThinItalic.woff') format('woff'),
+        url('TTSlabsCondensed-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TTSlabsCondensed';
+    src: url('TTSlabsCondensed-BoldItalic.eot');
+    src: local('☞TT Slabs Condensed Bold Italic'), local('TTSlabsCondensed-BoldItalic'),
+        url('TTSlabsCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTSlabsCondensed-BoldItalic.woff2') format('woff2'),
+        url('TTSlabsCondensed-BoldItalic.woff') format('woff'),
+        url('TTSlabsCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TTSlabsCondensed';
+    src: url('TTSlabsCondensed-Thin.eot');
+    src: local('☞TT Slabs Condensed Thin'), local('TTSlabsCondensed-Thin'),
+        url('TTSlabsCondensed-Thin.eot?#iefix') format('embedded-opentype'),
+        url('TTSlabsCondensed-Thin.woff2') format('woff2'),
+        url('TTSlabsCondensed-Thin.woff') format('woff'),
+        url('TTSlabsCondensed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTSlabsCondensed';
+    src: url('TTSlabsCondensed-Black.eot');
+    src: local('☞TT Slabs Condensed Black'), local('TTSlabsCondensed-Black'),
+        url('TTSlabsCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('TTSlabsCondensed-Black.woff2') format('woff2'),
+        url('TTSlabsCondensed-Black.woff') format('woff'),
+        url('TTSlabsCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTSlabsCondensed';
+    src: url('TTSlabsCondensed-Italic.eot');
+    src: local('☞TT Slabs Condensed Italic'), local('TTSlabsCondensed-Italic'),
+        url('TTSlabsCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TTSlabsCondensed-Italic.woff2') format('woff2'),
+        url('TTSlabsCondensed-Italic.woff') format('woff'),
+        url('TTSlabsCondensed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TTSlabsCondensed';
+    src: url('TTSlabsCondensed-LightItalic.eot');
+    src: local('☞TT Slabs Condensed Light Italic'), local('TTSlabsCondensed-LightItalic'),
+        url('TTSlabsCondensed-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTSlabsCondensed-LightItalic.woff2') format('woff2'),
+        url('TTSlabsCondensed-LightItalic.woff') format('woff'),
+        url('TTSlabsCondensed-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TTSlabsCondensed';
+    src: url('TTSlabsCondensed-Regular.eot');
+    src: local('☞TT Slabs Condensed Regular'), local('TTSlabsCondensed-Regular'),
+        url('TTSlabsCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTSlabsCondensed-Regular.woff2') format('woff2'),
+        url('TTSlabsCondensed-Regular.woff') format('woff'),
+        url('TTSlabsCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTSlabsCondensed';
+    src: url('TTSlabsCondensed-BlackItalic.eot');
+    src: local('☞TT Slabs Condensed Black Italic'), local('TTSlabsCondensed-BlackItalic'),
+        url('TTSlabsCondensed-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTSlabsCondensed-BlackItalic.woff2') format('woff2'),
+        url('TTSlabsCondensed-BlackItalic.woff') format('woff'),
+        url('TTSlabsCondensed-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TTSlabsCondensed';
+    src: url('TTSlabsCondensed-Light.eot');
+    src: local('☞TT Slabs Condensed Light'), local('TTSlabsCondensed-Light'),
+        url('TTSlabsCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('TTSlabsCondensed-Light.woff2') format('woff2'),
+        url('TTSlabsCondensed-Light.woff') format('woff'),
+        url('TTSlabsCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTSlabsCondensed';
+    src: url('TTSlabsCondensed-Bold.eot');
+    src: local('☞TT Slabs Condensed Bold'), local('TTSlabsCondensed-Bold'),
+        url('TTSlabsCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTSlabsCondensed-Bold.woff2') format('woff2'),
+        url('TTSlabsCondensed-Bold.woff') format('woff'),
+        url('TTSlabsCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

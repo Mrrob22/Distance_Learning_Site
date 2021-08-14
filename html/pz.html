@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Навчальна кафедра платформи ІКС</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+            Навчальна кафедра платформи ІКС
+        </div>
+        <div class="navigation">
+            <div class="navigation_list">
+                <div id="main_button" class="nav_button" onclick="main_page()">Головна</div>
+                <div id="main_info_button" class="nav_button" onclick="teachers_page()">Наші викладачі</div>
+                <div id="lectures" class="nav_button" onclick="lectures_page()">Лекції</div>
+                <div id="PZ" class="nav_button clicked" onclick="pz_page()">Практичні заняття</div>
+                <div id="tests" class="nav_button" onclick="tests_page()">Тести</div>
+                <div id="second_info_button" class="nav_button" onclick="info_page()">Корисні матеріали</div>
+                <div id="student" class="nav_button" onclick="student_page()">Вхід</div>
+                <div id="contacts" class="nav_button" onclick="contacts_page()">Контакти</div>
+            </div>
+        </div>
+    </header>
+    <div class="slider_main">
+        <div class="slider_header_1">Приклад вирішення завдань</div>
+        <div class="slider_container">
+            <div class="sl_ctr">
+                <div class="sldr">
+                    <img src="../Photos/PZ/Slide1.JPG" alt="">
+                    <img src="../Photos/PZ/Slide2.JPG" alt="">
+                    <img src="../Photos/PZ/Slide3.JPG" alt="">
+                    <img src="../Photos/PZ/Slide4.JPG" alt="">
+                    <img src="../Photos/PZ/Slide5.JPG" alt="">
+                    <img src="../Photos/PZ/Slide6.JPG" alt="">
+                </div>
+                <div class="prv_b"></div>
+                <div class="nxt_b"></div>
+            </div>
+        </div>
+    </div>
+    <div class="header_1">
+        Практичні завдання з МОЛ
+    </div>
+    <div id="pz_navigation_MOL" class="lectures_navigation">
+        <div class="nav_button"><a href="#MOL_PZ1"><strong>ПЗ 1. </strong> Геометрична інтерпретація <множин></множин></a></div>
+        <div class="nav_button"><a href="#MOL_PZ2"><strong>ПЗ 2. </strong> Операції на множинах</a></div>
+        <div class="nav_button"><a href="#MOL_PZ3"><strong>ПЗ 3. </strong> Алгебра множин</a></div>
+        <div class="nav_button"><a href="#MOL_PZ4"><strong>ПЗ 4. </strong> Нескінченні множини</a></div>
+        <div class="nav_button"><a href="#MOL_PZ5"><strong>ПЗ 5. </strong> Поняття відношень. Задання відношень.</a></div>
+        <div class="nav_button"><a href="#MOL_PZ6"><strong>ПЗ 6. </strong> Операції над відношеннями</a></div>
+        <div class="nav_button"><a href="#MOL_PZ7"><strong>ПЗ 7. </strong> Властивості бінарних відношень</a></div>
+        <div class="nav_button"><a href="#MOL_PZ8"><strong>ПЗ 8. </strong> Відношення еквівалентності, порядку, толерантності</a></div>
+        <div class="nav_button"><a href="#MOL_PZ9"><strong>ПЗ 9. </strong> Системи числення</a></div>
+        <div class="nav_button"><a href="#MOL_PZ10"><strong>ПЗ 10. </strong> Булева модель ІП</a></div>
+    </div>
+    <div class="header_1">
+        Практичні завдання з КЛ
+    </div>
+    <div id="pz_navigation_KL" class="lectures_navigation">
+        <div class="nav_button"><a href="#KL_PZ1"><strong>ПЗ 1. </strong> Методи квантитативної лінгвістики</a></div>
+        <div class="nav_button"><a href="#KL_PZ2"><strong>ПЗ 2. </strong> Елементи теорії ймовірностей</a></div>
+        <div class="nav_button"><a href="#KL_PZ3"><strong>ПЗ 3. </strong> Основи математичної статистики</a></div>
+        <div class="nav_button"><a href="#KL_PZ4"><strong>ПЗ 4. </strong> Елементи теорії інформації в лінгвістиці</a></div>
+        <div class="nav_button"><a href="#KL_PZ5"><strong>ПЗ 5. </strong> Ймовірнісне моделювання тексту</a></div>
+        <div class="nav_button"><a href="#KL_PZ6"><strong>ПЗ 6. </strong> Інформація лінґвістичних подій</a></div>
+        <div class="nav_button"><a href="#KL_PZ7"><strong>ПЗ 7. </strong> Статистична лінгвістика</a></div>
+        <div class="nav_button"><a href="#KL_PZ8"><strong>ПЗ 8. </strong> Приховані марківські моделі</a></div>
+    </div>
+<div class="border">
+    <div class="slider_header">Завдання з МОЛ</div>
+    <div class="slider_header" id="MOL_PZ1">ПЗ №1. Геометрична інтерпретація множин</div>
+    <div>
+        <div><strong>Завдання 1</strong> Input some text, pls</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_1"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 1 пз1 з МОЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 2</strong> Input some text, pls</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_2"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 2 пз1 з МОЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 3</strong> Input some text, pls</div>
+
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_3"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 3 пз1 з МОЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 4</strong> Input some text, pls</div>
+
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_4"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 4 пз1 з МОЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 5</strong> Input some text, pls</div>
+        <div>
+            <form
+                    method="POST"
+                    action="https://formspree.io/f/xzbyewpq"
+                    name="send_email_form_5"
+            >
+                <label>
+                    Ваша пошта:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Ваша відповідь:
+                    <textarea name="Відповідь до завдання 5 пз1 з МОЛ"></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+            <button class="send_email_form" type="submit">Додати задачу</button>
+        </div>
+    </div>
+    <div class="slider_header">Завдання з КЛ</div>
+    <div class="slider_header" id="KL_PZ1">ПЗ №1. Методи Квантитативної лінгвістики</div>
+    <div>
+        <div><strong>Завдання 1</strong> Обчислити A<sub>4</sub><sup>7</sup></div>
+    </div>
+        <div>
+            <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_6"
+            >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 1 пз1 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+            <button class="send_email_form" type="submit">Додати задачу</button>
+        </div>
+    <div>
+        <div><strong>Завдання 2</strong> Знайти кількість перестановок із повтореннями, які можна утворити з літер слова МАТЕМАТИКА</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_7"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 2 пз1 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 3</strong> Обсяг яких вибірок дорівнює потужності множини?</div>
+
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_8"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 3 пз1 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 4</strong> Скільки п’ятизначних чисел можна скласти
+            з цифр 0, 1, 2, 3, 4, 5 так,
+            щоб вони не повторювались і перша та остання цифри були парними?</div>
+
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_9"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 4 пз1 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 5</strong> Дано натуральні числа від 1 до 30.
+            Скількома способами можна вибрати з них 3 числа так, щоб їх сума була парним числом?</div>
+        <div>
+            <form
+                    method="POST"
+                    action="https://formspree.io/f/xzbyewpq"
+                    name="send_email_form_10"
+            >
+                <label>
+                    Ваша пошта:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Ваша відповідь:
+                    <textarea name="Відповідь до завдання 5 пз1 з КЛ"></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+            <button class="send_email_form" type="submit">Додати задачу</button>
+        </div>
+    </div>
+    <div class="slider_header" id="KL_PZ2">ПЗ №2. Елементи теорії ймовірностей</div>
+    <div>
+        <div><strong>Завдання 1</strong> На полиці стоїть 18 англомовних та 6 україномовних книжок.
+            Треба визначити ймовірність того, що хоча б одна із трьох вибраних книжок буде україномовною</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_11"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 1 пз2 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 2</strong> На полиці стоїть 18 англомовних та 6 україномовних книжок.
+            Треба визначити ймовірність того, що хоча б одна із трьох вибраних книжок буде україномовною</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_12"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 2 пз2 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 3</strong> Визначити ймовірність того, що хоча б одне з трьох вибраних слів тексту буде займенником він.
+            Значення статистичної ймовірності появи займенника він дорівнює 0,0099.
+            Визначити ймовірність того, що хоча б одне з двох вибраних слів тексту буде дієсловом бути.
+            Значення статистичної ймовірності появи дієслова бути дорівнює 0,0079.
+            Вибрати варіант правильної відповіді</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_13"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 3 пз2 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 4</strong> Нехай дано український науково-технічний текст довжиною 300 тис. слововживань.
+            За тематикою текст поділений на частини різної довжини: інформатика (200 тис.), медицина (80 тис.), логістика (20 тис.).
+            Слово комп’ютер використане у першій частині 440 разів, у другій – 30 разів, у третій – 10 разів.
+            Обчислити ймовірність того, що навмання взяте із наданого науково-технічного тексту слово буде словом комп’ютер. </div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_14"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 4 пз2 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 5</strong> Нехай дано текст у 100 000 слів.
+            Дієслово бути з’являється в ньому 1400 раз. Із наданого тексту навмання вибрали 400 слів,
+            серед яких дієслово бути зустрілося 25 разів.
+            Обчислити частоту появи слова бути в тексті,
+            використовуючи класичне означення ймовірності та статистичне означення ймовірності.</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_15"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 5 пз2 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div class="slider_header" id="KL_PZ3">ПЗ №3. Основи математичної статистики</div>
+    <div>
+        Задано варіаційний ряд, де ознаками є довжина слова в поетичному уривку (табл. 1.64).
+        <table>
+            <tr><th>Довжина словоформи</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+            </tr>
+            <tr><th>Кількість повторень словоформи заданої довжини</th>
+                <th>11</th>
+                <th>28</th>
+                <th>4</th>
+                <th>23</th>
+                <th>12</th>
+                <th>14</th>
+                <th>17</th>
+                <th>8</th>
+                <th>1</th>
+                <th>5</th>
+                <th>2</th>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <div><strong>Завдання 1</strong> Знайти середнє арифметичне для заданого в табл. 1.64 варіаційного ряду (заокруглене).</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_16"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 1 пз3 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 2</strong> Знайти розмах варіації для заданого в табл. 1.64 варіаційного ряду</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_17"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 2 пз3 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 3</strong> Знайти моду для заданого в табл. 1.64 варіаційного ряду.</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_18"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 3 пз3 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 4</strong> Знайти медіану для заданого в табл. 1.64 варіаційного ряду. </div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_19"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 4 пз3 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 5</strong> Знайти лінійне відхилення для заданого в табл. 1.64 варіаційного ряду.</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_20"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 5 пз3 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div class="slider_header" id="KL_PZ4">ПЗ №4. Елементи теорії інформації в лінгвістиці</div>
+    <div>
+        <div><strong>Завдання 1</strong> Після ланцюжка str літери a, e, i, o, u, y з’являються,
+            відповідно, 43, 26, 14, 9, 6 та 2 рази на 100 випробувань.
+            Обчислити кількість інформації I. </div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_21"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 1 пз4 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 2</strong> Повідомлення складені із трьох якісних ознак.
+            Тривалість елементарного посилання дорівнює 10 мс.
+            Визначити швидкість передавання сигналів</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_22"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 2 пз4 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 3</strong> Визначити кількість інформації при отриманні 10 повідомлень рівномірного шестизначного четвіркового коду. </div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_23"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 3 пз4 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 4</strong> На основі українського алфавіту будують ланцюжки з 6 літер за умови,
+            що ніяких обмежень на такі ланцюжки не накладають і всі такі ланцюжки є рівноймовірними.
+            Знайти структурні контекстні обмеження,
+            якщо заборонено використовувати голосні а, о для побудови ланцюжків. </div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_24"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 4 пз4 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 5</strong> 8.	При статичних випробуваннях встановлено,
+            що при передаванні кожних 100 повідомлень довжиною по 6 символів
+            у повідомленні символ M зустрічається 83 рази, а символ T – 17 разів.
+            Разом із символом M символ T зустрічається 3 рази.
+            Визначити умовні ентропії H(M/T) та H(T/M). </div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_25"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 5 пз4 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div class="slider_header" id="KL_PZ5">ПЗ №5. Ймовірнісне моделювання тексту</div>
+    <div>
+        <div><strong>Завдання 1</strong> Середня довжина простого речення або синтаксично оформленої частини
+            складного речення в англійських науково-технічних текстах є в межах від 10 до 11 словоформ.
+            Апріорна ймовірність появи іменників у вказаній підмові дорівнює 1/3.
+            Вважаючи появу окремих словоформ на типових синтаксично оформлених відрізках цих текстів
+            незалежними подіями, визначити ймовірність того, що на 10 слововживань,
+            що складають типовий відрізок тексту, рівно x будуть іменниками.
+            Розв’язати задачу для x = ДовжинаІменіСтудента та x = ДовжинаПрізвищаСтудента. </div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_26"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 1 пз5 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 2</strong> На основі матеріалів науково-технічного стилю української мови
+            (пропонується обрати відрізок у 100 слововживань) знайти відносну частоту появи іменника і дієслова.
+            Визначити ймовірність того, що на відрізку науково-технічного тексту довжиною
+            у ДовжинаІменіСтудента + ДовжинаПрізвищаСтудента слів з’явиться рівно 4 іменники та 2 дієслівні форми,
+            а інші словоформи належатимуть до інших класів.</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_27"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 2 пз5 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 3</strong> Нехай із текстів науково-технічного стилю української мови випадковим
+            чином взято (ДовжинаІменіСтудента + ДовжинаПрізвищаСтудента)100 слововживань.
+            Знайти ймовірність того, що в обраному тексті іменник зустрінеться хоча б один раз
+            (для знаходження відносної частоти появи іменника можна скористатися результатами попередньої задачі).
+        </div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_28"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 3 пз5 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 4</strong> Визначити обсяг вибірки текстів науково-технічного стилю української мови,
+            який необхідний для того, щоб з імовірністю 90% хоча б один раз у ній з’явився іменник
+            (для знаходження відносної частоти появи іменника можна скористатися результатами попередніх задач).
+            Розв’язати цю саму задачу для ймовірності (ДовжинаІменіСтудента + ДовжинаПрізвищаСтудента )%.
+        </div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_29"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 4 пз5 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 5</strong> Для чотирьох стилів української мови
+            (розмовна мова, поезія, художня проза і науково-технічний стиль) знайти відносну частоту
+            появи іменника (обрати відрізки тексту довжиною у 100 слововживань).
+            Знайти ймовірність використання іменників у кожному із запропонованих стилів. Знайти ймовірності
+            появи серед одночасно взятих чотирьох слів жодного, одного, двох, трьох, чотирьох іменників.
+        </div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_30"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 5 пз5 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <div class="slider_header" id="KL_PZ6">ПЗ №6. Інформація лінгвістичних подій</div>
+    <div>
+        <div><strong>Завдання 1</strong> Порахувати невизначеність для ланцюжків ІмяСтудента та ПрізвищеСтудента.</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_31"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 1 пз6 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 2</strong> Порахувати кількість інформації для ланцюжків ІмяСтудента та ПрізвищеСтудента.</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_32"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 2 пз6 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 3</strong> Порахувати розподіл синтаксичної інформації для ланцюжків ІмяСтудента та ПрізвищеСтудента.</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_33"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 3 пз6 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 4</strong> Порахувати контекстну обумовленість для ланцюжків ІмяСтудента та ПрізвищеСтудента.</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_34"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 4 пз6 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+    <div>
+        <div><strong>Завдання 5</strong> Обрати два довільні тексти на різних мовах однакового
+            стилю та однакової довжини розміром c1с2gts символів.
+            Порахувати розподіл синтаксичної інформації для обраних текстів. Порівняти результати.</div>
+    </div>
+    <div>
+        <form
+                method="POST"
+                action="https://formspree.io/f/xzbyewpq"
+                name="send_email_form_35"
+        >
+            <label>
+                Ваша пошта:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ваша відповідь:
+                <textarea name="Відповідь до завдання 5 пз6 з КЛ"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <button class="send_email_form" type="submit">Додати задачу</button>
+    </div>
+</div>
+    <footer class="footer">
+        <div class="side_info">
+            <div class="side_name">
+                Навчальна платформа кафедри ІКС
+            </div>
+        </div>
+    </footer>
+    <script src="../js/index.js"></script>
+    <script src="../js/slider.js"></script>
+</body>
+</html>

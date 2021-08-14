@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student</title>
+    <link rel="stylesheet" href="../css/login_style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+            Навчальна кафедра платформи ІКС
+        </div>
+        <div class="navigation">
+            <div class="navigation_list">
+                <div id="main_button" class="nav_button" onclick="main_page()">Головна</div>
+                <div id="main_info_button" class="nav_button" onclick="teachers_page()">Наші викладачі</div>
+                <div id="lectures" class="nav_button" onclick="lectures_page()">Лекції</div>
+                <div id="PZ" class="nav_button" onclick="pz_page()">Практичні заняття</div>
+                <div id="tests" class="nav_button" onclick="tests_page()">Тести</div>
+                <div id="second_info_button" class="nav_button" onclick="info_page()">Корисні матеріали</div>
+                <div id="student" class="nav_button clicked" onclick="student_page()">Вхід</div>
+                <div id="contacts" class="nav_button" onclick="contacts_page()">Контакти</div>
+            </div>
+        </div>
+    </header>
+    <div class="autorization_header">
+    <form name="login_form" onsubmit="return false;">
+        <div class="imgcontainer">
+            <img src="https://html5css.ru/howto/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Пошта</b></label>
+            <input type="text" placeholder="Ввести пошту" name="email" required>
+
+            <label for="psw"><b>Пароль</b></label>
+            <input type="password" placeholder="Ввести пароль" name="pass" required>
+
+            <button onclick="autorizationButton()">Логін</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Запам'ятати мене
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Відміна</button>
+            <span class="psw">Забули <a href="#">пароль?</a></span>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
