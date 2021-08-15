@@ -1,3 +1,10 @@
+let molPage = () =>{
+    document.location.href = "./mol.html";
+};
+let klPage = () =>{
+    document.location.href = "./kl.html";
+};
+
 let autorizationButton = () => {
     let form = document.forms.login_form;
     let pass = form.elements.pass.value;

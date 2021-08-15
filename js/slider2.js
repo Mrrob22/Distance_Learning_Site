@@ -1,4 +1,6 @@
 $(function() {
+    console.log('slider 2')
+
     var sldr = $('.sldr'),
         sldrContent = sldr.html(),
         slideWidth = $('.sl_ctr').outerWidth(),
@@ -12,7 +14,11 @@ $(function() {
     $('.sldr img:last').clone().prependTo('.sldr');
     $('.sldr img').eq(1).clone().appendTo('.sldr');
     $('.sldr').css('margin-left',-slideWidth);
-    function nxt_bSlide(){interval=window.setInterval(animate,sldrInterval)}
+    function nxt_bSlide(){
+        console.log('slider 2')
+
+        interval=window.setInterval(animate,sldrInterval)
+    }
     function animate(){
         if(margin==-slideCount*slideWidth-slideWidth){
             sldr.css({'marginLeft':-slideWidth});
@@ -35,4 +41,6 @@ $(function() {
         course=1;
         animate();
         course=course2});
-    sldr.add(nxt_b).add(prv_b).hover(function(){sldrStop()},nxt_bSlide);nxt_bSlide()});
+    sldr.add(nxt_b).add(prv_b).hover(function(){sldrStop()},nxt_bSlide);
+    nxt_bSlide()
+});

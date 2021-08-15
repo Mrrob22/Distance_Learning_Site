@@ -326,11 +326,13 @@ a:hover{
     height:457px;
     overflow:hidden;
 }
+.my_sldr,
 .sldr{
     position:relative;
     width:10000px;
     height:300px;
 }
+.my_sldr img,
 .sldr img{
     float:left;
     height: 457px;
